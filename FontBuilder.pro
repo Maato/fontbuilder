@@ -67,7 +67,8 @@ SOURCES += src/main.cpp \
     src/fontdrawwidget.cpp \
     src/fontloader.cpp \
     src/exporters/sparrowexporter.cpp \
-    src/exporters/bmfontexporter.cpp
+    src/exporters/bmfontexporter.cpp \
+    src/image/distancefieldwriter.cpp
 HEADERS += src/fontbuilder.h \
     src/colorbutton.h \
     src/fontselectframe.h \
@@ -104,7 +105,8 @@ HEADERS += src/fontbuilder.h \
     src/fontdrawwidget.h \
     src/fontloader.h \
     src/exporters/sparrowexporter.h \
-    src/exporters/bmfontexporter.h
+    src/exporters/bmfontexporter.h \
+    src/image/distancefieldwriter.h
 FORMS += src/fontbuilder.ui \
     src/fontselectframe.ui \
     src/fontoptionsframe.ui \
